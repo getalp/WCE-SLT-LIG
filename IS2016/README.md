@@ -3,13 +3,30 @@
 This repository contains all the corpora used in the paper submitted to the INTERSPEECH 2016.
 The paper can be found in the directory "paper".
 
+## ASR Filtering
+
+This corpus was use to select the best ASR output according two metrics: the WER and its extension WER-S.
+The last metric is a simple extension of WER metric in order to penalize differently substitution errors according to their context using word embeddings.
+For instance, the proposed metric should catch near matches (mainly morphological variants) and penalize less this kind oferror which has a more limited impact on translation performance. 
+Our experiments show that the correlation of the new proposed metric with SLT performance is better than the one of WER. 
+Oracle experiments are also conducted and show the ability of our metric to find better hypotheses (to be translated) in the ASR N-best. 
+Finally, a preliminary experiment where ASR tuning is based on our new metric shows encouraging results. 
+For reproductible experiments, the code allowing to call our modified WER and the corpora used are made available to the research community.
+
+## WER-E and WER-S
+
+here you can find a description of the new metrics used in these experiments:
+https://github.com/cservan/tercpp-embeddings
+
 ## Organisation
 
 <a href=".">.</a><br>
 ├── <a href="./paper/">paper</a><br>
 ├── <a href="./ASR_outputs/">ASR_outputs</a><br>
-│   ├── <a href="./ASR_outputs/best_scale/">best_scale</a><br>
-│   │   └── <a href="./ASR_outputs/best_scale/NBest/">NBest</a><br>
+│   ├── <a href="./ASR_outputs/best_scale_WER/">best_scale_WER</a><br>
+│   │   └── <a href="./ASR_outputs/best_scale_WER/NBest/">NBest</a><br>
+│   ├── <a href="./ASR_outputs/best_scale_WER-S/">best_scale_WER-S</a><br>
+│   │   └── <a href="./ASR_outputs/best_scale_WER-S/NBest/">NBest</a><br>
 │   ├── <a href="./ASR_outputs/references/">references</a><br>
 │   └── <a href="./ASR_outputs/scale_from_01_to_20/">scale_from_01_to_20</a><br>
 │   &nbsp;&nbsp;&nbsp; ├── <a href="./ASR_outputs/scale_from_01_to_20/scale_01/">scale_01</a><br>
