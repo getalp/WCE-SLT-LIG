@@ -8,7 +8,7 @@ The paper can be found in the directory "paper".
 <a href=".">.</a><br>
 ├── <a href="./ASR_outputs/">ASR_outputs</a><br>
 │   ├── <a href="./ASR_outputs/best_scale/">best_scale</a><br>
-│   │   ├── <a href="./ASR_outputs/best_scale/NBest/">NBest</a><br>
+│   │   └── <a href="./ASR_outputs/best_scale/NBest/">NBest</a><br>
 │   ├── <a href="./ASR_outputs/references/">references</a><br>
 │   └── <a href="./ASR_outputs/scale_from_01_to_20/">scale_from_01_to_20</a><br>
 │   &nbsp;&nbsp;&nbsp; ├── <a href="./ASR_outputs/scale_from_01_to_20/scale_01/">scale_01</a><br>
