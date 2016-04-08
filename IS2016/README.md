@@ -21,6 +21,7 @@ https://github.com/cservan/tercpp-embeddings
 ## Organisation
 
 <a href=".">.</a><br>
+├── <a href="./paper/">paper</a><br>
 ├── <a href="./ASR_outputs/">ASR_outputs</a><br>
 │   ├── <a href="./ASR_outputs/best_scale_WER/">best_scale_WER</a><br>
 │   ├── <a href="./ASR_outputs/best_scale_WER-S/">best_scale_WER-S</a><br>
@@ -47,7 +48,6 @@ https://github.com/cservan/tercpp-embeddings
 │   &nbsp;&nbsp;&nbsp; ├── <a href="./ASR_outputs/scale_from_01_to_20/scale_18/">scale_18</a><br>
 │   &nbsp;&nbsp;&nbsp; ├── <a href="./ASR_outputs/scale_from_01_to_20/scale_19/">scale_19</a><br>
 │   &nbsp;&nbsp;&nbsp; └── <a href="./ASR_outputs/scale_from_01_to_20/scale_20/">scale_20</a><br>
-├── <a href="./paper/">paper</a><br>
 └── <a href="./SLT_outputs/">SLT_outputs</a><br>
 &nbsp;&nbsp;&nbsp; ├── <a href="./SLT_outputs/1-Best_ASR/">1-Best_ASR</a><br>
 &nbsp;&nbsp;&nbsp; ├── <a href="./SLT_outputs/oracle_ASR_WER/">oracle_ASR_WER</a><br>
