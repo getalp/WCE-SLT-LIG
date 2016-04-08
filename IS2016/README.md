@@ -3,7 +3,7 @@
 This repository contains all the corpora used in the paper submitted to the INTERSPEECH 2016.
 The paper can be found in the directory "paper".
 
-## ASR Filtering
+## A new ASR metric: WER-S
 
 This corpus was use to select the best ASR output according two metrics: the WER and its extension WER-S.
 The last metric is a simple extension of WER metric in order to penalize differently substitution errors according to their context using word embeddings.
@@ -13,7 +13,7 @@ Oracle experiments are also conducted and show the ability of our metric to find
 Finally, a preliminary experiment where ASR tuning is based on our new metric shows encouraging results. 
 For reproductible experiments, the code allowing to call our modified WER and the corpora used are made available to the research community.
 
-## WER-E and WER-S
+## WER-S code
 
 here you can find a description of the new metrics used in these experiments:
 https://github.com/cservan/tercpp-embeddings
