@@ -6,6 +6,7 @@ The paper can be found in the directory "paper".
 ## Organisation
 
 <a href=".">.</a><br>
+├── <a href="./paper/">paper</a><br>
 ├── <a href="./ASR_outputs/">ASR_outputs</a><br>
 │   ├── <a href="./ASR_outputs/best_scale/">best_scale</a><br>
 │   │   └── <a href="./ASR_outputs/best_scale/NBest/">NBest</a><br>
