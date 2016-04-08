@@ -5,8 +5,8 @@ The paper can be found in the directory "paper".
 
 ## A new ASR metric: WER-S
 
-This corpus was use to select the best ASR output according two metrics: the WER and its extension WER-S.
-The last metric is a simple extension of WER metric in order to penalize differently substitution errors according to their context using word embeddings.
+This corpus was use to select the best ASR output according to the following metrics: the WER and its extension WER-S.
+The last metric is a simple new extension of the WER metric in order to penalize differently substitution errors according to their context using word embeddings.
 For instance, the proposed metric should catch near matches (mainly morphological variants) and penalize less this kind oferror which has a more limited impact on translation performance. 
 Our experiments show that the correlation of the new proposed metric with SLT performance is better than the one of WER. 
 Oracle experiments are also conducted and show the ability of our metric to find better hypotheses (to be translated) in the ASR N-best. 
