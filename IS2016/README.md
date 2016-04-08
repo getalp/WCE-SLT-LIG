@@ -8,7 +8,7 @@ The paper can be found in the directory "paper".
 This corpus was use to select the best ASR output according to the following metrics: the WER and its extension WER-S.
 The last metric is a simple new extension of the WER metric in order to penalize differently substitution errors according to their context using word embeddings.
 For instance, the proposed metric should catch near matches (mainly morphological variants) and penalize less this kind oferror which has a more limited impact on translation performance. 
-Our experiments show that the correlation of the new proposed metric with SLT performance is better than the one of WER. 
+Our experiments show that the correlation of the new proposed metric with SLT performance is better than the one of WER. <br />
 Oracle experiments are also conducted and show the ability of our metric to find better hypotheses (to be translated) in the ASR N-best. 
 Finally, a preliminary experiment where ASR tuning is based on our new metric shows encouraging results. 
 For reproductible experiments, the code allowing to call our modified WER and the corpora used are made available to the research community.
