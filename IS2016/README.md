@@ -15,7 +15,7 @@ For reproductible experiments, the code allowing to call our modified WER and th
 
 ## WER-S code
 
-here you can find a description of the new metrics used in these experiments:
+here you can find description and code of the new metrics used in these experiments:</br>
 https://github.com/cservan/tercpp-embeddings
 
 ## Organisation
