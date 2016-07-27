@@ -7,7 +7,7 @@ This corpus contains 2643 speech utterances for which a quintuplet containing: A
 More details on this corpus and how it can be used for evaluating word confidence estimators in ASR, MT or SLT can be found in the following paper:
 L. Besacier & al. 2014. Word confidence estimation for speech translation. In Proceedings of The International Workshop on Spoken Language Translation (IWSLT), Lake Tahoe, USA, December.
 
-
+(update with more data will be coming soon!!!)
 ========================================================================
 
 The folder WAV contains the 2643 speech signals recorded
