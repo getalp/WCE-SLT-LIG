@@ -1,0 +1,59 @@
+The WCE-SLT-LIG corpus for Word Confidence Estimation (WCE) in Spoken Language Translation (SLT)
+L. Besacier & B. Lecouteux (LIG, France)
+---------------------------------------------
+
+This corpus contains 2643 speech utterances for which a quintuplet containing: ASR output (src-asr), verbatim transcript (src-ref), text translation output (tgt-mt), speech translation output (tgt-slt) and post-edition of translation (tgt-pe), is made available. 
+
+More details on this corpus and how it can be used for evaluating word confidence estimators in ASR, MT or SLT can be found in the following paper:
+L. Besacier & al. 2014. Word confidence estimation for speech translation. In Proceedings of The International Workshop on Spoken Language Translation (IWSLT), Lake Tahoe, USA, December.
+
+(update with more data will be coming soon!!!)
+========================================================================
+
+The folder WAV contains the 2643 speech signals recorded
+
+The folder TXT contains the following files:
+
+Source Language (French)
+./SRC/    	
+  10881  268285 1761182 SRC/src-ref-all.fr     =>10881 sentences in French (all)
+  10000  247970 1628987 SRC/src-ref-trn.fr     =>10000 sentences in French (trn part)
+    881   20315  132195 SRC/src-ref-tst.fr     =>881 sentences in French (tst part)
+   2643   71483  398746 SRC/src-asr-tst3times.fr  => 881*3 sentences in French (ASR Output for tst part)
+
+Target Language (English)
+./TGT/
+  10881  238190 1473247 TGT/tgt-ref-all.en   =>10881 manually translated sentences in English (all)
+  10000  219700 1360363 TGT/tgt-ref-trn.en   =>10000 manually translated sentences in English (trn part)
+    881   18490  112884 TGT/tgt-ref-tst.en   =>881 manually translated sentences in English (tst part)
+  10881  246811 1472436 TGT/tgt-mt-all.en    =>10881 automatically translated sentences in English (all)
+  10000  227777 1359659 TGT/tgt-mt-trn.en    =>10000 automatically translated sentences in English (trn part)
+    881   19034  112777 TGT/tgt-mt-tst.en    =>881 automatically translated sentences in English (tst part)
+  10881  251410 1522348 TGT/tgt-pe-all.en    =>10881 post-edition of MT sentences in English (all)
+  10000  231804 1404491 TGT/tgt-pe-trn.en    =>10000 post-edition of MT sentences in English (trn part)
+    881   19606  117857 TGT/tgt-pe-tst.en    =>881 post-edition of MT sentences in English (tst part)
+   2643   64063  341630 TGT/tgt-slt-tst3times.en => 881*3 SLT (ASR+MT) sentences in English (ASR+MT Output for tst part)   
+
+./Labels
+* Labels-MT: obtained from Terpa(tgt-mt,tgt-pe)
+* Labels-SLT: obtained from Terpa(tgt-slt,tgt-pe)
+
+
+If you use this corpus in your work or publish results obtained using this corpus, you must cite the following paper:
+
+L. Besacier & al. 2014. Word confidence estimation for speech translation. In Proceedings of The International Workshop on Spoken Language Translation (IWSLT), Lake Tahoe, USA, December.
+
+or
+
+LaTeX BibTeX entry:
+
+@inproceedings{besacier14,
+	Address = {Lake Tahoe, USA},
+	Author = {Laurent Besacier and Benjamin Lecouteux and Ngoc Quang Luong and Kaing Hour and Marwa Hadjsalah},
+	Booktitle = {Proceedings of The International Workshop on Spoken Language Translation (IWSLT)},
+	Date-Added = {2014-10-01 07:42:11 +0000},
+	Date-Modified = {2014-10-01 07:44:40 +0000},
+	Month = {December},
+	Title = {Word Confidence Estimation for Speech Translation},
+	Year = {2014}}
+
