@@ -17,7 +17,7 @@ If you are using this corpus please cite the following paper (pdf given on this 
 }
 
 
-The paper above describes the V1 of this corpus available in CORPUS-V1 directory (2683 utterances only).
+The paper above describes the V1 of this corpus available in CORPUS-V1.old directory (2683 utterances only).
 The other folders described below correspond to the new and full version of this corpus (6693 utterances).
 
 ========================================================================
