@@ -89,5 +89,5 @@ Labels by calculating WER or TERp-A
      45556     556446    3286938 Labels/Labels-SLT-ASR1-dev.pra  => obtained from TERp-A(tgt-slt-dev-3times.en of ASR1, tgt-pe-dev-3times.en)
      69582     870117    5270874 Labels/Labels-SLT-ASR1-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR1, tgt-pe-tst-3times.en)
      45472     558097    3290231 Labels/Labels-SLT-ASR2-dev.pra  => obtained from TERp-A(tgt-slt-dev-3times.en of ASR2, tgt-pe-dev-3times.en)
-     69439     867842    5259856 Labels/Labels-SLT-ASR2-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR2, tgt-pe-tst-3times.en)
+     69439     867842    5259856 Labels/Labels-SLT-ASR2-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR2, tgt-pe-tst-3times.en) 
 
