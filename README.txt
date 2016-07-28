@@ -3,6 +3,20 @@ This corpus contains 6693 speech utterances (DEV: 2643 speech utterances; TST: 4
 
 If you are using this corpus please cite the following paper (pdf given on this root directory):
 
+@InProceedings{besacier14,
+  Title                    = {Word Confidence Estimation for Speech Translation},
+  Author                   = {Laurent Besacier and Benjamin Lecouteux and Ngoc Quang Luong and Kaing Hour and Marwa Hadjsalah},
+  Booktitle                = {Proceedings of The International Workshop on Spoken Language Translation (IWSLT)},
+  Year                     = {2014},
+
+  Address                  = {Lake Tahoe, USA},
+  Month                    = {December},
+
+  Date-added               = {2014-10-01 07:42:11 +0000},
+  Date-modified            = {2014-10-01 07:44:40 +0000}
+}
+
+
 The paper above describes the V1 of this corpus available in CORPUS-V1 directory (2683 utterances only).
 The other folders described below correspond to the new and full version of this corpus (6693 utterances).
 
