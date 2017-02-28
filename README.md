@@ -61,10 +61,8 @@ Target Language (English)
 ./TGT/
 
      10881     251410    1522348 TGT/tgt-pe-all.en               => 10881 post-edition of MT sentences in English (all)     
-       881      19606     117857 TGT/tgt-pe-dev.en               => 881 post-edition of MT sentences in English (dev part)       
-      2643      58818     353571 TGT/tgt-pe-dev-3times.en        => 881*3 post-edition of MT sentences in English (dev part)      
-      1350      31396     193176 TGT/tgt-pe-tst.en               => 1350 post-edition of MT sentences in English (tst part)      
-      4050      94029     578415 TGT/tgt-pe-tst-3times.en        => 1350*3 post-edition of MT sentences in English (tst part)
+       881      19606     117857 TGT/tgt-pe-dev.en               => 881 post-edition of MT sentences in English (dev part)             
+      1350      31396     193176 TGT/tgt-pe-tst.en               => 1350 post-edition of MT sentences in English (tst part)            
       
      10881     238190    1473247 TGT/tgt-ref-all.en              => 10881 manually translated sentences in English (all)
        881      18490     112884 TGT/tgt-ref-dev.en              => 881 manually translated sentences in English (dev part)      
@@ -98,7 +96,7 @@ Labels by calculating WER or TERp-A
      23092     301782    1780907 Labels/Labels-MT-tst.pra        => obtained from TERp-A(tgt-mt-tst.en, tgt-pe-tst.en)
      
      45556     556446    3286938 Labels/Labels-SLT-ASR1-dev.pra  => obtained from TERp-A(tgt-slt-dev-3times.en of ASR1, tgt-pe-dev-3times.en)
-     69582     870117    5270874 Labels/Labels-SLT-ASR1-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR1, tgt-pe-tst-3times.en)
+     69842     874435    5287617 Labels/Labels-SLT-ASR1-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR1, tgt-pe-tst-3times.en)
      45472     558097    3290231 Labels/Labels-SLT-ASR2-dev.pra  => obtained from TERp-A(tgt-slt-dev-3times.en of ASR2, tgt-pe-dev-3times.en)
-     69439     867842    5259856 Labels/Labels-SLT-ASR2-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR2, tgt-pe-tst-3times.en) 
+     69626     871641    5272400 Labels/Labels-SLT-ASR2-tst.pra  => obtained from TERp-A(tgt-slt-tst-3times.en of ASR2, tgt-pe-tst-3times.en) 
 
